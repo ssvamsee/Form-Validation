@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="scoreCard">
+        <div>
+            <h1>Enter Your Semister Marks</h1>
+            <div>
+                <label>Student Name</label>
+                <input id="studentName" type="text">
+            </div>
+            <div style="margin-left: 20px;">
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Mr">
+                <label for="gender-male" style="width: auto;">Male</label>
+                <input type="radio" name="gender" id="gender-female">
+                <label for="gender-female" style="width: auto;">Female</label>
+            </div>
+            <div style="margin-left: 40px;">
+                <label style="margin-left: 0;width: auto;">Maritial Status</label>
+                <input type="radio" name="marital" value="Mrs">
+                <label style="width: auto;">Married</label>
+                <input type="radio" name="marital" value="Ms">
+                <label style="width: auto;">UnMarried</label>
+            </div>
+
+            <div>
+                <label style="margin-left:30px;margin-right: 1px;">State</label>
+                <select>
+                    <option>---Choose One---</option>
+                   <option>Arunachal Pradesh</option>
+                   <option>Andhra Pradesh</option>
+                   <option>Assam</option>
+                   <option>Bihar</option>
+                   <option>Chhattisgarh</option>
+                   <option>Goa</option>
+                   <option>Gujarat</option>
+                   <option>Haryana</option>
+                   <option>Himachal Pradesh</option>
+                   <option>Jharkand</option>
+                   <option>Karnataka</option>
+                   <option>Kerala</option>
+                   <option>Madhya Pradesh</option>
+                   <option>Maharashtra</option>
+                   <option>Manipur</option>
+                   <option>Meghalaya</option>
+                   <option>Mizoram</option>
+                   <option>Nagaland</option>
+                   <option>Odisha</option>
+                   <option>Punjab</option>
+                   <option>Rajasthan</option>
+                   <option>Sikkim</option>
+                   <option>Tamil Nadu</option>
+                   <option>Telangana</option>
+                   <option>Tripura</option>
+                   <option>Uttar Pradesh</option>
+                   <option>Uttarakhand</option>
+                   <option>West Bengal</option>
+               </select>
+            </div>
+            <div>
+                <label>Subject 1</label>
+                <input id="sub1" max="100" type="number">
+                <span id="s1"></span>
+            </div>
+            <div>
+                <label>Subject 2</label>
+                <input id="sub2" max="100" type="number">
+                <span id="s2"></span>
+
+            </div>
+            <div>
+                <label>Subject 3</label>
+                <input id="sub3" max="100" type="number">
+                <span id="s3"></span>
+
+            </div>
+            <div>
+                <label>Subject 4 </label>
+                <input id="sub4" max="100" type="number">
+                <span id="s4"></span>
+
+            </div>
+            <div>
+                <label>Subject 5 </label>
+                <input id="sub5" max="100" type="number">
+                <span id="s5"></span>
+
+            </div>
+            <div>
+                <label>Subject 6 </label>
+                <input id="sub6" max="100" type="number">
+                <span id="s6"></span>
+
+            </div>
+            
+            <button id="submitBtn" onclick="reportCard()">Submit</button>
+            <div>
+                <label>Total Marks</label>
+                <input id="totalMarks">
+
+            </div>
+
+            <div style="margin-top: 20px;">
+                <p id="showData"></p>
+            </div>
+        </div>
+
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>

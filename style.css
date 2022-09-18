@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(86, 101, 116);
+    background-image: url(./download.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px blue;
+    text-decoration: underline;
+    color: lightblue;
+}
+
+div {
+    margin: 5px;
+    padding-top: 5px;
+}
+
+label {
+    margin-right: 2px;
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: bisque;
+}
+
+input {
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px whitesmoke;
+    padding: 5px;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+input[type="radio"]{
+    box-shadow: 0px 0px 0px;
+    margin-left: 15px;
+    box-sizing: unset;
+    border: none;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    width: 208px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 2px 2px whitesmoke;
+    border-style: none;
+    margin-right: 17px;
+}
+option{
+    color: coral;
+}
+
+button {
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#showdata {
+    color: black;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#scoreCard {
+    background-image: url(./1.jpg);
+    width: 30%;
+    height: 50%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 3%;
+    display: inline-block;
+    box-shadow: 0px 0px 8px black;
+}
+
+#totalMarks{
+    margin-top: 10px; 
+    border-style: groove;
+    box-shadow: none;
+    border-color: white;
+}
+
+#studentName{
+text-transform: uppercase;
+}
+
+p {
+    font-style: normal;
+    font-size: medium;
+    font-weight: 300;
+    color: white;
+}
